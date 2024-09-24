@@ -1,0 +1,62 @@
+table,td,tr,th{
+    border:1px solid red;
+    border-collapse:collapse;
+    padding:8px;
+    margin: auto;
+    margin-top:10px;
+}
+
+.empcont{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin-top:40px;
+}
+
+.formpos{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:40px;
+}
+
+
+
+.empcont input{
+    width:350px;
+}
+
+.empcont label{
+    font-size:16px;
+}
+
+.viewemp{
+    width:750px;
+    height:300px;
+    border:1px solid rgb(189,19,90);
+    border-radius:10px;
+}
+
+.view{
+    background-color:rgb(189,19,90);
+    border-radius:4px;
+    color:white;
+    padding:5px;
+    padding-left:20px;
+}
+
+.btnsub{
+    display:flex;
+    justify-content: center;
+}
+
+.sub{
+    background-color: rgb(221, 39, 39);
+    color:white;
+
+}
+
+.sub :hover{
+    color:red;
+}
+
