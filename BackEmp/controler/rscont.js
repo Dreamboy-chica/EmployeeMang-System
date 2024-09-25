@@ -4,12 +4,12 @@ let add=async(req,res)=>{
     try{
         let data=new Emp(req.body)
         await data.save()
-        res.json({"msg":"Data has been added"})
+        res.json({"msg":"Data has been added..."})
 
     }
     catch(err)
     {
-        res.json({"err":"Error in Storing Data"})
+        res.json({"err":"Error in Storing Data..."})
     }
 }
 

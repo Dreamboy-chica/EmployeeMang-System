@@ -44,7 +44,6 @@ function Addres() {
       <button onClick={add}>Add Data</button>
 
     </div>
-  )
-}
+  )}
 
 export default Addres

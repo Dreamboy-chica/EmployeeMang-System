@@ -2,20 +2,20 @@ import {Link} from 'react-router-dom'
 
 const Nav = () => {
   return (
-    <div>
+    <div className='home'>
 
       <Link to="/">
-      <button type="button" className="btn btn-success m-3">Home</button>
+      <h6>Home</h6>
       </Link>
 
       <Link to="/add">
-      <button type="button" className="btn btn-danger m-3">Add Data</button>
+      <h6> Add Data</h6>
+     
       </Link>
 
    {/* getbydata */}
       <Link to="/getbyid">
-      <button type="button" className="btn btn-warning">View Employee</button>
-
+      <h6>View Employee</h6>
     </Link>
     </div>
   )

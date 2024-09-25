@@ -3,6 +3,8 @@ import Nav from './Nav'
 import Home from './Home'
 import Addres from './Addres'
 import GetData from './GetData'
+import DisplayData from './DisplayData'
+
 const App = () => {
   return (
    <BrowserRouter>
@@ -12,6 +14,7 @@ const App = () => {
     <Route path='/add' element={<Addres/>}/>
     {/* <Route path='/getdata' element={<GetData/>}/> */}
     <Route path='/getbyid' element={<GetData/>}/>
+    <Route path="/display" element={<DisplayData />} />
 
    </Routes>
    
